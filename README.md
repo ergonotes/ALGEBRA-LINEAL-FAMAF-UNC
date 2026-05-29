@@ -12,9 +12,10 @@ ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. E
 ---
 ### Para usuarios
 Podés acceder a la versión publicada del sitio aquí:  
-👉 **[https://tomasccc.github.io/ergo](https://tomasccc.github.io/ergo)**
+
+👉 **[{{ config.site_url }}]({{ config.site_url }})**
 ### Para colaboradores
-¿Querés sumar tu apunte? Tenés dos caminos...
+¿Querés sumar tu apunte?
 > 💡 Consultá la **[Guía de Contribución](docs/contribution-guide.md)** para conocer los detalles técnicos (uso de carpetas, previsualización de fórmulas, etc).
 
 ---
@@ -31,10 +32,10 @@ Este proyecto protege tanto la libertad del código como la autoría del conteni
 1.  **Código Fuente:** Licenciado bajo **[GNU AGPLv3](LICENSE)**. Si usás o mejorás esta infraestructura para tu propio sitio, estás obligado a mantenerlo abierto.
 2.  **Contenido (Apuntes):** Todo el material de estudio se distribuye bajo **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** (Atribución - No Comercial - Compartir Igual).
 ---
-## **❤️ Apoyo y Mejoras**
+## **Apoyo y Mejoras**
 Este sitio se mantiene gracias al esfuerzo del desarrollador. Si te sirve el material, podés ayudar de varias formas:
 * **Desarrollo:** Reportando bugs o mejorando cualquier aspecto del código actual, o del que se está desarrollando para la próxima versión.
 * **Contenido:** Corrigiendo errores de tipeo en las fórmulas o subiendo nuevos finales resueltos.
 * **Sustento:** Cualquier ayuda para mantener la infraestructura y el dominio es bienvenida.
 ---
-*Creado con ❤️ por [Tomás](https://github.com/tomasccc).*
+*Creado por [Tomás](https://github.com/tomasccc).*
