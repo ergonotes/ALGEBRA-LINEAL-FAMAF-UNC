@@ -1,4 +1,4 @@
-# ERGO | Wikipedia Colaborativa
+# ERGO | Wikipedia STEM Colaborativa
 ![Logo](docs/assets/logo.png)
 
 ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. El objetivo es centralizar el conocimiento de una clase en particular, facilitar el acceso a material de estudio gratuito y fomentar la colaboración entre estudiantes. Para FAMAF y quién sabe dónde más.
@@ -13,7 +13,7 @@ ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. E
 ### Para usuarios
 Podés acceder a la versión publicada del sitio aquí:  
 
-👉 **[{{ config.site_url }}]({{ config.site_url }})**
+👉 **[https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/](https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/)**
 ### Para colaboradores
 ¿Querés sumar tu apunte?
 > 💡 Consultá la **[Guía de Contribución](docs/contribution-guide.md)** para conocer los detalles técnicos (uso de carpetas, previsualización de fórmulas, etc).
