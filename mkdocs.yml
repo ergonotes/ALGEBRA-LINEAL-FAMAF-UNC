@@ -57,10 +57,10 @@ extra:
       name: Invitame un café / Colaborar
   decap_proxy: https://decap-proxy.tomycaruso.workers.dev
   giscus:
-    repo: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
-    repo_id: R_kgDOPkfsrw
+    repo: tomasccc/ergo-comments
+    repo_id: R_kgDOSfmUxg
     category: Announcements
-    category_id: DIC_kwDOPkfsr84C8RYU
+    category_id: DIC_kwDOSfmUxs4C9Nn1
 
 plugins:
   - search
