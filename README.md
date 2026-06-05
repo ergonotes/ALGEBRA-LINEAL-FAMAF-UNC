@@ -13,7 +13,7 @@ ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. E
 ### Para usuarios
 Podés acceder a la versión publicada del sitio aquí:  
 
-👉 **[https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/](https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/)**
+👉 **[https://ergonotes.github.io/ALGEBRA-LINEAL-FAMAF-UNC/](https://ergonotes.github.io/ALGEBRA-LINEAL-FAMAF-UNC/)**
 ### Para colaboradores
 ¿Querés sumar tu apunte?
 > 💡 Consultá la **[Guía de Contribución](docs/contribution-guide.md)** para conocer los detalles técnicos (uso de carpetas, previsualización de fórmulas, etc).
