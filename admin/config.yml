@@ -2,7 +2,7 @@ local_backend: false
 locale: es
 backend:
   name: github
-  repo: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+  repo: ergonotes/ALGEBRA-LINEAL-FAMAF-UNC
   branch: main
   base_url: https://decap-proxy.tomycaruso.workers.dev
   open_authoring: true
