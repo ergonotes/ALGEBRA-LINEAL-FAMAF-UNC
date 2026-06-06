@@ -1,9 +1,9 @@
 site_name: !ENV [SITE_NAME, "ERGO"]
 site_description: !ENV [SITE_DESCRIPTION, "Sitio estático para notas colaborativas"]
-site_url: !ENV [SITE_URL, "https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/"]
+site_url: !ENV [SITE_URL, "https://ergonotes.github.io/ALGEBRA-LINEAL-FAMAF-UNC/"]
 
-repo_url: !ENV [REPO_URL, "https://github.com/tomasccc/ALGEBRA-LINEAL-FAMAF-UNC"]
-repo_name: !ENV [REPO_NAME, "tomasccc/ALGEBRA-LINEAL-FAMAF-UNC"]
+repo_url: !ENV [REPO_URL, "https://github.com/ergonotes/ALGEBRA-LINEAL-FAMAF-UNC"]
+repo_name: !ENV [REPO_NAME, "ergonotes/ALGEBRA-LINEAL-FAMAF-UNC"]
 edit_uri: !ENV [EDIT_URI, "edit/main/docs/"]
 
 copyright: |
@@ -57,7 +57,7 @@ extra:
       name: Invitame un café / Colaborar
   decap_proxy: https://decap-proxy.tomycaruso.workers.dev
   giscus:
-    repo: tomasccc/ergo-comments
+    repo: ergonotes/ergo-comments
     repo_id: R_kgDOSfmUxg
     category: Announcements
     category_id: DIC_kwDOSfmUxs4C9Nn1
