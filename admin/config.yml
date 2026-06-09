@@ -148,6 +148,32 @@ collections:
     - Acepto
     - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
       para publicar/editar.'
+- name: oficial_matrices_elementales__inversibles_y_determinantes
+  label: '📚 Oficial: Matrices Elementales, Inversibles y Determinantes'
+  folder: docs/oficial/Matrices Elementales, Inversibles y Determinantes
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
 - name: oficial__lgebra___famaf_unc_notas_del_te_rico___alejandro_tiraboschi__silvina_riveros_y_agust_n_garc_a_iglesias
   label: '📚 Oficial: Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi,
     Silvina Riveros y Agustín García Iglesias'
