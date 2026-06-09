@@ -16,3 +16,4 @@ lo que implica que $b = 0$. Por lo tanto,
 **Ejemplos.**  
 - $(\mathbb{Q}, +, \cdot),\ (\mathbb{R}, +, \cdot)$ y $(\mathbb{C}, +, \cdot)$ son cuerpos
 - $(\mathbb{Z}_p, +, \cdot)$ es un cuerpo $\iff\ p$  es primo.
+

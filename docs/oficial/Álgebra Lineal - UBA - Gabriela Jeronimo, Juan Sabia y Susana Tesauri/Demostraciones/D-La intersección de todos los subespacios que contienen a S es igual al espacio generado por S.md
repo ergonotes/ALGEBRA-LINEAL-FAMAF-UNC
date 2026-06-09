@@ -1,0 +1,7 @@
+**Teorema**. Sea $V$ un espacio vectorial sobre $K$ y sean $v_1, \ldots, v_k \in V$. Entonces, la intersección de todos los subespacios vectoriales que contienen a $v_1, \ldots, v_k$ es igual a $\langle v_1, \ldots, v_k \rangle$.
+****
+**Demostración**. Denotemos $W_1 = \langle v_1, \ldots, v_k \rangle$ y $W_2$ la intersección de todos los subespacios vectoriales que contienen a $v_1, \ldots, v_k$. Probaremos que $W_1 = W_2$ con la doble inclusión, es decir probando que $W_1 \subseteq W_2$ y $W_2 \subseteq W_1$.
+
+$(W_1 \subseteq W_2)$. Sea $W$ subespacio vectorial que contiene $v_1, \ldots, v_k$. Como $W$ es subespacio, entonces $W$ contiene a cualquier combinación lineal de los $v_1, \ldots, v_k$, por lo tanto $W$ contiene a $W_1$. Es decir, cualquier subespacio que contiene a $v_1, \ldots, v_k$, también contiene a $W_1$, por lo tanto la intersección de todos los subespacios que contienen a $v_1, \ldots, v_k$, contiene a $W_1$. Luego $W_2 \supseteq W_1$.
+
+$(W_2 \subseteq W_1)$. $W_1$ es un subespacio que contiene a $v_1, \ldots, v_k$, por lo tanto la intersección de todos los subespacios que contienen a $v_1, \ldots, v_k$ está contenida en $W_1$. Es decir, $W_2 \subseteq W_1$. $\square$

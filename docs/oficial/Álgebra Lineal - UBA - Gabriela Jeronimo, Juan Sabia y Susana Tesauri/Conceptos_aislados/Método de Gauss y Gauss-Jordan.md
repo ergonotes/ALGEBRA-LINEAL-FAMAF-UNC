@@ -1,4 +1,4 @@
-### 🔹 Método de Gauss (o *eliminación de Gauss*)
+### Método de Gauss (o *eliminación de Gauss*)
 - Se usa para transformar la matriz en **forma triangular superior**.  
 - Es decir, se hacen ceros **debajo** de los pivotes, pero no se toca lo que queda arriba.  
 Ejemplo de resultado típico (matriz triangular superior):
@@ -8,7 +8,7 @@ $$\begin{bmatrix}
 0 & 0 & *
 \end{bmatrix}$$
 ---
-### 🔹 Método de Gauss–Jordan (o *eliminación completa*)
+### Método de Gauss–Jordan (o *eliminación completa*)
 - Se continúa eliminando hasta dejar la matriz en **forma reducida por filas** (*forma escalonada reducida*).  
 - Esto significa que no solo hay ceros debajo de cada pivote, sino también **arriba**.  
 - Cada pivote es \($1$\) y es el único número distinto de cero en su columna.  
