@@ -2,7 +2,7 @@ local_backend: false
 locale: es
 backend:
   name: github
-  repo: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+  repo: ergonotes/ALGEBRA-LINEAL-FAMAF-UNC
   branch: main
   base_url: https://decap-proxy.tomycaruso.workers.dev
   open_authoring: true
@@ -125,6 +125,32 @@ collections:
 - name: oficial_bases_y_dimensi_n
   label: '📚 Oficial: Bases y DImensión'
   folder: docs/oficial/Bases y DImensión
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
+- name: oficial_matrices_elementales__inversibles_y_determinantes
+  label: '📚 Oficial: Matrices Elementales, Inversibles y Determinantes'
+  folder: docs/oficial/Matrices Elementales, Inversibles y Determinantes
   create: true
   delete: true
   extension: md

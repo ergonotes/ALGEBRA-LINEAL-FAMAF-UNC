@@ -1,0 +1,6 @@
+**Proposición**. Sea $V$ un espacio vectorial sobre $K$ y sean $v_1, \ldots, v_r$ elementos de de $V$. Entonces
+$$ \langle v_1, \ldots, v_r \rangle = \langle v_1 \rangle + \ldots + \langle v_r \rangle. $$
+****
+**Demostración**. Probemos el resultado viendo que los dos conjuntos se incluyen mutuamente.
+($\subseteq$) Sea $w \in \langle v_1, \ldots, v_r \rangle$, luego $w = \lambda_1 v_1 + \ldots + \lambda_r v_r$. Como $\lambda_i v_i \in \langle v_i \rangle$, $1 \leq i \leq r$, tenemos que $w \in \langle v_1 \rangle + \ldots + \langle v_r \rangle$. En consecuencia, $\langle v_1, \ldots, v_r \rangle \subseteq \langle v_1 \rangle + \ldots + \langle v_r \rangle$.
+($\supseteq$) Si $w \in \langle v_1 \rangle + \ldots + \langle v_r \rangle$, entonces $w = w_1 + \ldots + w_r$ con $w_i \in \langle v_i \rangle$ para todo $i$. Por lo tanto, $w_i = \lambda_i v_i$ para algún $\lambda_i \in K$ y $w = \lambda_1 v_1 + \ldots + \lambda_r v_r \in \langle v_1, \ldots, v_r \rangle$. En consecuencia, $\langle v_1 \rangle + \ldots + \langle v_r \rangle \subseteq \langle v_1, \ldots, v_r \rangle$. $\square$

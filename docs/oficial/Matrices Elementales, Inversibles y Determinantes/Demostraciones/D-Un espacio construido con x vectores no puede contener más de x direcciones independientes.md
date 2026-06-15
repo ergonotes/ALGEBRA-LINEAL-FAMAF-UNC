@@ -1,4 +1,4 @@
-**TEOREMA**. Sea $V$ un espacio vectorial generado por un conjunto finito de vectores $w_1, \dots, w_m$. Entonces todo conjunto independiente de vectores de $V$ es finito y contiene a lo más $m$ elementos.
+**TEOREMA**. Sea $V$ un espacio vectorial generado por un conjunto finito de vectores $w_1, \dots, w_m$. Entonces todo conjunto independiente de vectores de $V$ es finito y contiene como mucho $m$ elementos.
 ****
 **Demostración**. Para demostrar este teorema es suficiente ver que todo subconjunto $S$ de $V$ que contiene más de $m$ vectores es linealmente dependiente. 
 Sea $S$ un tal conjunto. En $S$ hay vectores diferentes $\alpha_1, \alpha_2, \dots, \alpha_n$, donde $n > m$. 
