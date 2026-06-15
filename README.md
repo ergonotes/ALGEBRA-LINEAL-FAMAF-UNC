@@ -1,7 +1,9 @@
-# ERGO | Wikipedia STEM Colaborativa
+# ERGO | Proyecto Open Source | '*Wikipedia*' STEM Colaborativa
 ![Logo](docs/assets/logo.png)
 
-ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. El objetivo es centralizar el conocimiento de una clase en particular, facilitar el acceso a material de estudio gratuito y fomentar la colaboración entre estudiantes. Para FAMAF y quién sabe dónde más.
+ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. 
+El objetivo es centralizar el conocimiento e información en común de una clase o materia en particular, facilitar el acceso a material de estudio a través de una infraestructura gratuita, y fomentar la colaboración entre estudiantes. 
+Para *FAMAF* y quién sabe dónde más.
 ****
 ## **Características Principales**
 * **Contenido Curado:** Sección "Oficial" con material revisado por administradores.
@@ -14,16 +16,24 @@ ERGO es una plataforma de notas y apuntes colaborativos para estudiantes STEM. E
 Podés acceder a la versión publicada del sitio aquí:  
 
 👉 **[https://ergonotes.github.io/ALGEBRA-LINEAL-FAMAF-UNC/](https://ergonotes.github.io/ALGEBRA-LINEAL-FAMAF-UNC/)**
+
+---
+## **Estructura del Proyecto**
+* `docs/`: Contenido (notas o apuntes) en formato Markdown, organizado por secciones.
+* `docs/oficial/`: Contenido validado previamente por CODEOWNERS y estructurado.
+* `docs/comunidad/`: Apuntes libres, resúmenes y ejercicios. También pudiendo seguir una estructura.
+* `docs/(comunidad u oficial)/assets`: Imágenes, capturas de pantalla y contenido en notas.
+* `docs/admin/`: Configuración para el editor web Decap CMS.
+* `hooks.py`: Lógica de procesamiento de Markdown y configuración dinámica del CMS.
+* `overrides`: Archivos de sobreescritura para personalizar la apariencia y el comportamiento del sitio.
+* `mkdocs.yml`: Configuración del sitio, bajo el framework MkDocs.
+* `.github/workflows`: Flujo de trabajo para la automatización de tareas.
+---
+
 ### Para colaboradores
 ¿Querés sumar tu apunte?
 > 💡 Consultá la **[Guía de Contribución](docs/contribution-guide.md)** para conocer los detalles técnicos (uso de carpetas, previsualización de fórmulas, etc).
 
----
-## **Estructura del Proyecto**
-* `docs/oficial/`: Contenido validado y estructurado por unidades.
-* `docs/comunidad/`: Apuntes libres, resúmenes y ejercicios. También pudiendo seguir una estructura.
-* `docs/(comunidad u oficial)/assets`: Imágenes, capturas de pantalla y contenido en notas.
-* `hooks.py`: Lógica de procesamiento de Markdown y configuración dinámica del CMS.
 
 ---
 ## **Licenciamiento (Híbrido)**
@@ -36,6 +46,7 @@ Este proyecto protege tanto la libertad del código como la autoría del conteni
 Este sitio se mantiene gracias al esfuerzo del desarrollador. Si te sirve el material, podés ayudar de varias formas:
 * **Desarrollo:** Reportando bugs o mejorando cualquier aspecto del código actual, o del que se está desarrollando para la próxima versión.
 * **Contenido:** Corrigiendo errores de tipeo en las fórmulas o subiendo nuevos finales resueltos.
-* **Sustento:** Cualquier ayuda para mantener la infraestructura y el dominio es bienvenida.
+* **Sustento:** El proyecto se mantiene gracias al esfuerzo del desarrollador, y cualquier apoyo para mejorar la infraestructura es muy apreciado. El desarrollador tiene intenciones de ser totalmente transparente con la cifra y uso de los fondos que puedan llegar a través de donaciones, y se compromete a reinvertirlos en mejoras para el proyecto. Si querés apoyar, podés hacerlo a través de [Cafecito](https://cafecito.app/ergonotes)
+
 ---
-*Creado por [Tomás](https://github.com/tomasccc).*
+*Creado por [tomasccc](https://github.com/tomasccc).*
