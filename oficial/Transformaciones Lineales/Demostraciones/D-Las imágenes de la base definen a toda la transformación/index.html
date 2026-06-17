@@ -695,6 +695,8 @@
       
         
       
+        
+      
     
     
     
@@ -833,6 +835,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../Bases%20y%20DImensi%C3%B3n/Vector%20de%20coordenadas%20respecto%20a%20una%20base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vector de coordenadas respecto a una base
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
       
@@ -869,10 +899,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_5" >
         
           
-          <label class="md-nav__link" for="__nav_3_1_4" id="__nav_3_1_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_1_5" id="__nav_3_1_5_label" tabindex="0">
             
   
   
@@ -890,8 +920,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_1_4">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1215,10 +1245,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_6" >
         
           
-          <label class="md-nav__link" for="__nav_3_1_5" id="__nav_3_1_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_1_6" id="__nav_3_1_6_label" tabindex="0">
             
   
   
@@ -1236,8 +1266,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_1_5">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -4877,6 +4907,51 @@
 
 
 <h1 id="d-las-imagenes-de-la-base-definen-a-toda-la-transformacion">D Las imágenes de la base definen a toda la transformación<a class="headerlink" href="#d-las-imagenes-de-la-base-definen-a-toda-la-transformacion" title="Permanent link">&para;</a></h1>
+<p><strong>Teorema.</strong> Sea <span class="arithmatex">\(V\)</span> un espacio vectorial de dimensión finita sobre el cuerpo <span class="arithmatex">\(F\)</span>, sea <span class="arithmatex">\(\{\alpha_1, \dots, \alpha_n\}\)</span> una base ordenada de <span class="arithmatex">\(V\)</span>. Sean <span class="arithmatex">\(W\)</span> un espacio vectorial sobre el mismo cuerpo <span class="arithmatex">\(F\)</span> y <span class="arithmatex">\(\beta_1, \dots, \beta_n\)</span> vectores cualesquiera de <span class="arithmatex">\(W\)</span>. Entonces existe una única transformación lineal <span class="arithmatex">\(T\)</span> de <span class="arithmatex">\(V\)</span> en <span class="arithmatex">\(W\)</span> tal que</p>
+<div class="arithmatex">\[
+T\alpha_j = \beta_j, \quad j = 1, \dots, n.
+\]</div>
+<hr />
+<p><strong>Demostración.</strong> Para demostrar que existe una transformación lineal <span class="arithmatex">\(T\)</span> tal que <span class="arithmatex">\(T\alpha_j = \beta_j\)</span> se procede como sigue. Dado <span class="arithmatex">\(\alpha\)</span> de <span class="arithmatex">\(V\)</span>, existe una única <span class="arithmatex">\(n\)</span>-tuple <span class="arithmatex">\((x_1, \dots, x_n)\)</span> tal que</p>
+<div class="arithmatex">\[
+\alpha = x_1\alpha_1 + \dots + x_n\alpha_n.
+\]</div>
+<p>Para ese vector <span class="arithmatex">\(\alpha\)</span> se define</p>
+<div class="arithmatex">\[
+T\alpha = x_1\beta_1 + \dots + x_n\beta_n.
+\]</div>
+<p>Entonces, <span class="arithmatex">\(T\)</span> es una correspondencia bien definida que asocia a cada vector <span class="arithmatex">\(\alpha\)</span> de <span class="arithmatex">\(V\)</span> un vector <span class="arithmatex">\(T\alpha\)</span> de <span class="arithmatex">\(W\)</span>. De la definición queda claro que <span class="arithmatex">\(T\alpha_j = \beta_j\)</span> para cada <span class="arithmatex">\(j\)</span>. Para ver que <span class="arithmatex">\(T\)</span> es lineal, sea</p>
+<div class="arithmatex">\[
+\beta = y_1\alpha_1 + \dots + y_n\alpha_n
+\]</div>
+<p>de <span class="arithmatex">\(V\)</span> y sea <span class="arithmatex">\(c\)</span> cualquier escalar. Ahora</p>
+<div class="arithmatex">\[
+c\alpha + \beta = (cx_1 + y_1)\alpha_1 + \dots + (cx_n + y_n)\alpha_n
+\]</div>
+<p>con lo que, por definición,</p>
+<div class="arithmatex">\[
+T(c\alpha + \beta) = (cx_1 + y_1)\beta_1 + \dots + (cx_n + y_n)\beta_n.
+\]</div>
+<p>Por otra parte,</p>
+<div class="arithmatex">\[
+\begin{aligned}
+c(T\alpha) + T\beta &amp;= c \sum_{i=1}^n x_i\beta_i + \sum_{i=1}^n y_i\beta_i \\
+&amp;= \sum_{i=1}^n (cx_i + y_i)\beta_i
+\end{aligned}
+\]</div>
+<p>Y así</p>
+<div class="arithmatex">\[
+T(c\alpha + \beta) = c(T\alpha) + T\beta.
+\]</div>
+<p>Si <span class="arithmatex">\(U\)</span> es una transformación lineal de <span class="arithmatex">\(V\)</span> en <span class="arithmatex">\(W\)</span> con <span class="arithmatex">\(U\alpha_j = \beta_j\)</span>, <span class="arithmatex">\(j = 1, \dots, n\)</span>, entonces para el vector <span class="arithmatex">\(\alpha = \sum_{i=1}^n x_i\alpha_i\)</span> se tiene</p>
+<div class="arithmatex">\[
+\begin{aligned}
+U\alpha &amp;= U\left( \sum_{i=1}^n x_i\alpha_i \right) \\
+&amp;= \sum_{i=1}^n x_i(U\alpha_i) \\
+&amp;= \sum_{i=1}^n x_i\beta_i
+\end{aligned}
+\]</div>
+<p>con lo que <span class="arithmatex">\(U\)</span> es exactamente la misma correspondencia <span class="arithmatex">\(T\)</span> que se definió antes, lo que demuestra que la transformación lineal <span class="arithmatex">\(T\)</span> con <span class="arithmatex">\(T\alpha_j = \beta_j\)</span> es única. <span class="arithmatex">\(\blacksquare\)</span></p>
 
 
 
@@ -4899,7 +4974,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 16, 2026 22:28:04 UTC"><span class="timeago" datetime="2026-06-16T22:28:04+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 16, 2026 22:28:04 UTC">2026-06-16</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 17, 2026 23:46:30 UTC"><span class="timeago" datetime="2026-06-17T23:46:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 17, 2026 23:46:30 UTC">2026-06-17</span>
   </span>
 
     
@@ -4919,11 +4994,12 @@
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
       
     </span>
     <nav>
       
+        <a href="mailto:405310@tecnicatura.frc.utn.edu.ar">405310-Caruso-Tomas</a>
     </nav>
   </span>
 
