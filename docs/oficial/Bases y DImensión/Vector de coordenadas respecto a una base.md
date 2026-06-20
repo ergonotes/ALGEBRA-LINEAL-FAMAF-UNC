@@ -16,5 +16,5 @@ $$[v]_B = \begin{pmatrix} \alpha_1 \\ \alpha_2 \\ \vdots \\ \alpha_n \end{pmatri
 Por lo tanto, para cualesquiera vectores $v, w \in V$ y cualquier escalar $c \in K$, se satisface que: 
 $$[v + w]_B = [v]_B + [w]_B$$ y también
 $$[cv]_B = c[v]_B$$
-****
+
 
