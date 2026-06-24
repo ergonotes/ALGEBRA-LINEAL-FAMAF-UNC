@@ -8,7 +8,7 @@ La notación $[v]_B$ lo que hace es ignorar a los vectores de la base y "extraer
 
 $$[v]_B = \begin{pmatrix} \alpha_1 \\ \alpha_2 \\ \vdots \\ \alpha_n \end{pmatrix}$$
 
-> "El vector $v$ es el plato final; $[v]_B$ es la lista exacta de cantidades que necesitas para cocinarlo usando la receta $B$."
+> "El vector $v$ es el plato final; $[v]_B$ es la lista exacta de cantidades que necesitamos para cocinarlo usando la receta $B$."
 
 ****
 #### **Linealidad del vector de coordenadas**
