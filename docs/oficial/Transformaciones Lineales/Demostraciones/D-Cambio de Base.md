@@ -5,7 +5,7 @@ $$[v]_{\mathcal{B}'} = [\text{Id}_V]_{\mathcal{B}\mathcal{B}'} [v]_{\mathcal{B}}
 Donde $\text{Id}_V : V \to V$ es la transformación identidad (definida como $\text{Id}_V(v) = v$ para todo $v \in V$), y a la matriz $[\text{Id}_V]_{\mathcal{B}\mathcal{B}'}$ se le llama **Matriz de Cambio de Base** (o matriz de transición) de la base $\mathcal{B}$ a la base $\mathcal{B}'$.
 ****
 **Demostración.**
-Ya que [[D-Aplicar una transformación abstracta en cualquier base del universo es exactamente lo mismo que multiplicar la matriz de la transformación por las coordenadas del vector]], sabemos que para cualquier transformación lineal $T: V \to W$ y bases ordenadas $\mathcal{B}$ (de $V$) y $\mathcal{B}'$ (de $W$), se cumple:
+Ya que [[D-El producto de la matriz asociada a una transformación lineal por el vector de coordenadas del dominio determina el vector de coordenadas de su imagen en el codominio]], sabemos que para cualquier transformación lineal $T: V \to W$ y bases ordenadas $\mathcal{B}$ (de $V$) y $\mathcal{B}'$ (de $W$), se cumple:
 $$[T]_{\mathcal{B}\mathcal{B}'}[v]_{\mathcal{B}} = [T(v)]_{\mathcal{B}'}$$
 Consideremos el caso particular donde el espacio de llegada es el mismo que el de partida ($W = V$), y la transformación lineal es la función identidad $T = \text{Id}_V$. Sustituimos esta $T$ en nuestra fórmula general:
 $$[\text{Id}_V]_{\mathcal{B}\mathcal{B}'}[v]_{\mathcal{B}} = [\text{Id}_V(v)]_{\mathcal{B}'}$$
