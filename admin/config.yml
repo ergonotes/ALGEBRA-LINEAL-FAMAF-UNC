@@ -226,6 +226,32 @@ collections:
     - Acepto
     - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
       para publicar/editar.'
+- name: oficial_determinantes
+  label: '📚 Oficial: Determinantes'
+  folder: docs/oficial/Determinantes
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
 - name: oficial_matrices
   label: '📚 Oficial: Matrices'
   folder: docs/oficial/Matrices
@@ -252,9 +278,9 @@ collections:
     - Acepto
     - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
       para publicar/editar.'
-- name: oficial_matrices_elementales__inversibles_y_determinantes
-  label: '📚 Oficial: Matrices Elementales, Inversibles y Determinantes'
-  folder: docs/oficial/Matrices Elementales, Inversibles y Determinantes
+- name: oficial_matrices_elementales_e_inversibles
+  label: '📚 Oficial: Matrices Elementales e Inversibles'
+  folder: docs/oficial/Matrices Elementales e Inversibles
   create: true
   delete: true
   extension: md
