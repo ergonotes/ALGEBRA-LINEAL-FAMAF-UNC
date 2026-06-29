@@ -1,0 +1,1 @@
+Antes de ver la demostración de forma general, se recomienda 
