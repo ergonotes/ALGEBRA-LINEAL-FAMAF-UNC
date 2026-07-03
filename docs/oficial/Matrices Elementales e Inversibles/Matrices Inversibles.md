@@ -44,10 +44,15 @@ $$E_1 E_2 \ldots E_k AA^{-1} = I_n A^{-1} \iff$$
 $$E_1 E_2 \ldots E_k I_n = A^{-1} \iff$$
 $$e_1(e_2(\ldots (e_k(I_n))\ldots)) = A^{-1}.$$
 ****
-#### **Teorema**. **Sea $A$ matriz $n \times n$ con coeficientes en $K$. Entonces, las siguientes afirmaciones son equivalentes.**
+### **[[D-El sistema de ecuaciones asociado a una matriz inversible tiene una y solo una solución]]**
+**Teorema**. Sea $A$ matriz $n \times n$ con coeficientes en $K$. Entonces, las siguientes afirmaciones son equivalentes.
+
 $i)$ $A$ es invertible.
+
 $ii)$ El sistema $AX = Y$ tiene una única solución para toda matriz $Y$ de orden $n \times 1$.
+
 $iii)$ El sistema homogéneo $AX = 0$ tiene una única solución trivial.
-**[[D-El sistema de ecuaciones asociado a una matriz inversible tiene una y solo una solución]]**
+
+**Corolario (consecuencia).** Un sistema lineal homogéneo $Bx=0$ tiene solución no trivial sí y sólo si $B$ es no inversible.
 ****
 #### **Corolario.** **[[D-Una matriz cuadrada que tiene una inversa a la izquierda o a la derecha es inversible]].**

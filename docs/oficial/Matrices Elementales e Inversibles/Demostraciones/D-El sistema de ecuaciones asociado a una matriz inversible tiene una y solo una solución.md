@@ -1,6 +1,9 @@
-#### **Teorema**. **Sea $A$ matriz $n \times n$ con coeficientes en $K$. Entonces, las siguientes afirmaciones son equivalentes.**
+ **Teorema**. Sea $A$ matriz $n \times n$ con coeficientes en $K$. Entonces, las siguientes afirmaciones son equivalentes.
+
 $i)$ $A$ es invertible.
+
 $ii)$ El sistema $AX = Y$ tiene una única solución para toda matriz $Y$ de orden $n \times 1$.
+
 $iii)$ El sistema homogéneo $AX = 0$ tiene una única solución trivial.
 ****
 **Demostración**.
