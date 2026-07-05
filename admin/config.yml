@@ -201,8 +201,8 @@ collections:
     - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
       para publicar/editar.'
 - name: oficial_bases_y_dimensi_n
-  label: '📚 Oficial: Bases y DImensión'
-  folder: docs/oficial/Bases y DImensión
+  label: '📚 Oficial: Bases y Dimensión'
+  folder: docs/oficial/Bases y Dimensión
   create: true
   delete: true
   extension: md
@@ -281,6 +281,32 @@ collections:
 - name: oficial_matrices_elementales_e_inversibles
   label: '📚 Oficial: Matrices Elementales e Inversibles'
   folder: docs/oficial/Matrices Elementales e Inversibles
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
+- name: oficial_producto_interno_en_un_espacio_vectorial
+  label: '📚 Oficial: Producto Interno en un Espacio Vectorial'
+  folder: docs/oficial/Producto Interno en un Espacio Vectorial
   create: true
   delete: true
   extension: md
