@@ -42,4 +42,4 @@ U\alpha &= U\left( \sum_{i=1}^n x_i\alpha_i \right) \\
 &= \sum_{i=1}^n x_i\beta_i
 \end{aligned}
 $$
-con lo que $U$ es exactamente la misma correspondencia $T$ que se definió antes, lo que demuestra que la transformación lineal $T$ con $T\alpha_j = \beta_j$ es única. $\blacksquare$
+con lo que $U$ es exactamente la misma correspondencia $T$ que se definió antes, lo que demuestra que la transformación lineal $T$ con $T\alpha_j = \beta_j$ es única. 
