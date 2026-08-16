@@ -304,6 +304,32 @@ collections:
     - Acepto
     - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
       para publicar/editar.'
+- name: oficial_n_meros_complejos
+  label: '📚 Oficial: Números Complejos'
+  folder: docs/oficial/Números Complejos
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
 - name: oficial_producto_interno_en_un_espacio_vectorial
   label: '📚 Oficial: Producto Interno en un Espacio Vectorial'
   folder: docs/oficial/Producto Interno en un Espacio Vectorial
