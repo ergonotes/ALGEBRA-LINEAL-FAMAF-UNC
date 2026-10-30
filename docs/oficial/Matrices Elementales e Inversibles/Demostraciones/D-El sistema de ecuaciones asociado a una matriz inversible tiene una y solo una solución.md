@@ -12,4 +12,5 @@ $$ AX_0 = Y \Rightarrow A^{-1}AX_0 = A^{-1}Y \Rightarrow X_0 = A^{-1}Y. $$
 Es decir, $X_0$ es único (siempre igual a $A^{-1}Y$).
 
 $ii) \Rightarrow i)$ Es trivial, tomando $Y=0$.
+
 $iii) \Rightarrow i)$ Sea $R$ la matriz escalón reducida por filas equivalente a $A$, es decir $R = PA$ con $P$ invertible y $R$ es MERF. Si $R$ tiene una fila nula, entonces por teorema 1.2.5, el sistema $AX = 0$ tiene más de una solución, lo cual es absurdo. Por lo tanto, $R$ no tiene filas nulas. Como es una matriz cuadrada y es MERF, tenemos que $R = I_n$. Luego $A$ es equivalente por filas a $I_n$ y por teorema anterior ([[D-Una matriz inversible es equivalente a Id, es producto de matrices elementales y viceversa]]) se deduce que $A$ es invertible. $\square$
