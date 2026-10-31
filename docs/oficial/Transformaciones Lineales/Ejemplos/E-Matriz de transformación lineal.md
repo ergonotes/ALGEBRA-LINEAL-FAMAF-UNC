@@ -24,3 +24,6 @@ $$
 $$
 ****
 Cabe aclarar que no es necesario que se usen las bases canónicas para dar el ejemplo. La matriz de la transformación podría formarse a partir de otras bases del conjunto de salida y de llegada.
+
+
+$$[D]_{B_V, B_W} = \begin{bmatrix} 3 & 0 & 0 & 0 \\ 0 & 2 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}$$

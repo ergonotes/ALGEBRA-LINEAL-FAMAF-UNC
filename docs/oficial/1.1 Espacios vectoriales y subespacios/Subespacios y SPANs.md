@@ -55,3 +55,4 @@ $$ \langle v_1, \ldots, v_r \rangle = \langle v_1 \rangle + \ldots + \langle v_r
 
 [[D-La suma de subespacios equivale al subespacio generado por su unión; y sus generadores se obtienen uniendo los generadores individuales]]
 
+****
