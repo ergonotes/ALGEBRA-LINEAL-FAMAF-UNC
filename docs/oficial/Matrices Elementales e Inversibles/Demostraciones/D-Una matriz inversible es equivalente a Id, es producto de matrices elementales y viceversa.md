@@ -1,7 +1,7 @@
 Si $A$ es una matriz $n \times n$, los siguientes enunciados son equivalentes.
-(i) $A$ es invertible.
-(ii) $A$ es equivalente por filas a la matriz identidad $n \times n$.
-(iii) $A$ es un producto de matrices elementales.
+($i$) $A$ es invertible.
+($ii$) $A$ es equivalente por filas a la matriz identidad $n \times n$.
+($iii$) $A$ es un producto de matrices elementales.
 ****
 **Demostración.** 
 $i) \Rightarrow ii)$ Sea $R$ la matriz escalón reducida por fila equivalente por filas a $A$. Entonces, existen $E_1, \ldots, E_k$ matrices elementales tal que $E_1 \ldots E_k A = R$. Como las matrices elementales son invertibles, el producto de matrices elementales es invertible, luego $E_1, \ldots, E_k$ es invertible y por lo tanto $R = E_1 \ldots E_k A$ es invertible.
