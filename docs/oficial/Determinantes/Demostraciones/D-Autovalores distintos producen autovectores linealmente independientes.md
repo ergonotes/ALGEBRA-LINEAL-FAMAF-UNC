@@ -4,7 +4,7 @@
 Caso base. Si $m = 1$, no hay nada que demostrar puesto que un vector no nulo es LI.
 
 Paso inductivo. Supongamos que el enunciado es verdadero para el caso $m - 1$ con $m > 1$, (hipótesis inductiva o HI), y probemos entonces que esto implica que es cierto para $m$. Debemos ver que si
-
+La matriz de la transformación lineal T respecto a las bases canónicas resulta ser exactamente la matriz A porque la base canónica posee una propiedad matemática única: las coordenadas de cualquier vector respecto a ella son idénticas a las componentes del propio vector.La matriz de la transformación lineal T respecto a las bases canónicas resulta ser exactamente la matriz A porque la base canónica posee una propiedad matemática única: las coordenadas de cualquier vector respecto a ella son idénticas a las componentes del propio vector.
 $$
 (*) \ \ \ \quad c_1v_1 + c_2v_2 + \cdots + c_mv_m = 0
 $$

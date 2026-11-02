@@ -1,4 +1,4 @@
-Sea $T: K^n \to K^m$ una transformación lineal. Entonces existen escalares únicos $a_{ij} \in K$ (con $1 \le i \le m$ y $1 \le j \le n$) tales que, para cualquier vector $x = (x_1, x_2, \dots, x_n) \in K^n$, la transformación está dada explícitamente por la fórmula:
+Para resolver el ejercicio 3 del Práctico 7, aprovechamos los autovalores y autovectores dados para estructurar la demostración y los cálculos en tres pasos.Sea $T: K^n \to K^m$ una transformación lineal. Entonces existen escalares únicos $a_{ij} \in K$ (con $1 \le i \le m$ y $1 \le j \le n$) tales que, para cualquier vector $x = (x_1, x_2, \dots, x_n) \in K^n$, la transformación está dada explícitamente por la fórmula:
 
 $$T(x_1, \dots, x_n) = (a_{11}x_1 + \dots + a_{1n}x_n, \dots, a_{m1}x_1 + \dots + a_{mn}x_n)$$
 ****
