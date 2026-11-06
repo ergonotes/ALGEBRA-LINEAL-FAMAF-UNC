@@ -18,7 +18,6 @@ $$
 Plataforma colaborativa de apuntes, teoría y ejercicios para la materia **Álgebra Lineal (Álgebra II)** de FAMAF - UNC.
 
 ---
-
 ### **Secciones**
 
 * 🏛️ **Oficial:** Apuntes teóricos, definiciones y demostraciones estructuradas según el programa de la materia (espacios vectoriales, matrices, transformaciones lineales, producto interno, etc.).
