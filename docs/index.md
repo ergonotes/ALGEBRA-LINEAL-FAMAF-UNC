@@ -33,7 +33,7 @@ Plataforma colaborativa de apuntes, teoría y ejercicios para la materia **Álge
 
 ---
 
-### ✍️ **¿Cómo colaborar?**
+### **¿Cómo colaborar?**
 
 Cualquier corrección, apunte o ejercicio suma. Podés colaborar de dos formas:
 
